@@ -1,0 +1,7 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+  <h2>Predicted Price</h2>
+  <p><strong>Car:</strong> {{ car.name }}</p>
+  <p><strong>Predicted Price:</strong> ₹{{ predicted_value }}</p>
+  <a href="../../">Back to list</a>
+{% endblock %}
